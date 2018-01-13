@@ -1,0 +1,34 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+[epub|type~="colophon"] {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+[epub|type~="colophon"] h1 {
+	text-align: center;
+}
+
+[epub|type~="colophon"] main {
+	flex-grow: 1;
+}
+
+[epub|type~="colophon"] footer p {
+	font-size: small;
+}
+
+[epub|type~="chapter"] {
+	page-break-before: always;
+}
+
+body {
+	margin: .5em;
+	line-height: 1.8;
+}
+
+p {
+	margin: 1em 0;
+}
