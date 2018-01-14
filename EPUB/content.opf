@@ -22,6 +22,9 @@
 		<item href="chapter4.xhtml" id="chapter4" media-type="application/xhtml+xml"/>
 		<item href="chapter5.xhtml" id="chapter5" media-type="application/xhtml+xml"/>
 		<item href="chapter6.xhtml" id="chapter6" media-type="application/xhtml+xml"/>
+		<item href="chapter7.xhtml" id="chapter7" media-type="application/xhtml+xml"/>
+		<item href="chapter8.xhtml" id="chapter8" media-type="application/xhtml+xml"/>
+		<item href="chapter9.xhtml" id="chapter9" media-type="application/xhtml+xml"/>
 		<item href="toc.xhtml" id="toc" properties="nav" media-type="application/xhtml+xml"/>
 		<item href="afterword.xhtml" id="afterword" media-type="application/xhtml+xml"/>
 	</manifest>
@@ -37,6 +40,9 @@
 		<itemref idref="chapter4" linear="yes" />
 		<itemref idref="chapter5" linear="yes" />
 		<itemref idref="chapter6" linear="yes" />
+		<itemref idref="chapter7" linear="yes" />
+		<itemref idref="chapter8" linear="yes" />
+		<itemref idref="chapter9" linear="yes" />
 		<itemref idref="toc" linear="no"/>
 		<itemref idref="afterword" linear="yes" />
 	</spine>
